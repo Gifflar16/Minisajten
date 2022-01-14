@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +25,7 @@ body {
 .topnav a:hover {
   background-color: black;
   color: white;
+  transition: 0.6s;
 }
 
 .topnav a.active {
@@ -69,6 +73,7 @@ body {
   text-align: center;
   color: white;
   padding: 10px;
+  font-family: "Luxurious Roman", "cursive";
 }
 .header-text h1 {
   padding-top: 50px;
@@ -87,6 +92,14 @@ body {
   flex: 50%;
 }
 
+.flex-item-right {
+  padding: 10px;
+}
+
+.flex-item-right img {
+  width: 100%;
+}
+
 @media (max-width: 500px) {
   .flex-container {
     flex-direction: column;
@@ -97,9 +110,13 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 100px;
+  height: 350px;
   background-color: gray;
   color: white;
   text-align: center;
   font-size: 20px;
+}
+
+a {
+  color: black;
 }

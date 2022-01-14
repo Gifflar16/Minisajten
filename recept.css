@@ -1,0 +1,26 @@
+.header {
+  background-image: url("chinh-le-duc-vuDXJ60mJOA-unsplash.jpg");
+
+  min-height: 353px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-text {
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.header-text h1 {
+  padding-top: 50px;
+  font-size: 100px;
+}
+
+.r img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
